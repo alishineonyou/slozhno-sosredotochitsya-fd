@@ -325,9 +325,6 @@
 
     .article__distractions {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .article__distractions {
         column-gap: var(--gap-l);
     }
 
