@@ -53,8 +53,17 @@
         --article-title-color: var(--highlight-dark-color);
         --article-item-text-color: var(--highlight-dark-color);
     }
+
+    .theme-light .rec-symbol,
+    .theme-auto .rec-symbol {
+        display: none;
+    }
 }
 
 .theme-light .page {
     /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-light .rec-symbol {
+    display: none;
 }
